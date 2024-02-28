@@ -59,4 +59,4 @@ async def predict(file: UploadFile):
 
     # Trả về kết quả dự đoán
     print(output_name)
-    return {output_name}
+    return {pred_labels[0],output_name}
